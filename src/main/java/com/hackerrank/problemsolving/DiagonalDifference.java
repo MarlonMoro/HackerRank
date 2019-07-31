@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class Result2 {
 
     /*
      * Complete the 'diagonalDifference' function below.
@@ -60,7 +60,7 @@ public class DiagonalDifference {
             }
         });
 
-        int result = Result.diagonalDifference(arr);
+        int result = Result2.diagonalDifference(arr);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
