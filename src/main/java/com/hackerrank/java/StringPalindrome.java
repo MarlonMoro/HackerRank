@@ -17,6 +17,8 @@ public class StringPalindrome {
     }
     System.out.println(A.equals(reverseName) ? "Yes" : "No");
 
+    System.out.println(A.equals(new StringBuilder(A).reverse().toString()) ? "Yes": "No");
+
   }
 
 }
